@@ -1,0 +1,143 @@
+/* Gerais */
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.row{
+    margin:0;
+
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+
+/*Barra de navegação*/
+
+header, .navbar{
+    background-color: #353D41;
+}
+
+#nav.container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+    margin-left:15px;
+}
+
+.navbar-brand{
+    padding:0;
+    color:#ffffff;
+}
+
+.nav-brand:hover{
+    color: #ffffff;
+}
+
+#navbar-links a{
+    color: #fafafa;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+/* Carousel */
+.container-fluid{
+    padding:0px;
+}
+
+#mainSlide .carousel-inner, .carousel-item {
+    height: 90vh;
+}
+
+div.carousel-inner .carousel-caption{
+    top:30%;
+} 
+
+.carousel-caption h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6em;
+    margin-bottom:30px;
+}
+
+.carousel-caption p{
+    font-size:1.5rem;
+    font-weight: 300;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.carousel-caption a.main-btn{
+    background-color: #65DAF9;
+    width: 220px;
+    height: 45px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    transition: .5s;
+}
+
+a.main-btn:hover{
+    background-color: transparent;
+    border:3px solid #65DAF9;
+}
+
+/* Sobre a empresa */
+
+#about-area{
+    background-color: #f9f9f9;
+}
+
+.main-title{
+    color:#444;
+    margin: 0px 0px 65px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title{
+    font-size: 17px;
+    color:#444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height: 30px;
+}
+
+#about-list a{
+    color:#7fffd4;
+    margin-right: 20px;
+}

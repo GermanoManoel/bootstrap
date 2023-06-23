@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDC Agency</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Lexend+Deca&family=Passion+One&family=Roboto:wght@300;400;700&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--( Scripts do Bootstrap )-->
+    <!--3 passo: link do Jquery-->
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
+    <!-- 2 passo: link da segunda barra de rolagem (O segundo link)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <!--1 passo: link da primeira barra de rolagem (Esse link ta junto com o do bootstrap que tu pegou no sites)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!--4 passo: script do fontawesome-->
+    <script src="https://kit.fontawesome.com/f9176a3e6c.js" crossorigin="anonymous"></script>
+    <!--5 passo: Progress Bar-->
+    <script src="progressbar.js"></script>
+    <!--6 passo: Parallax-->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body> 
+    <h1>Olá Mundo!</h1>
+    <header>
+        <div class="conteiner" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="img/hdcagency_logo.svg" alt="HDC Agency"> hDC Agency
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" area-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="about-menu">A agência</a>
+                        <a class="nav-item nav-link" id="services-menu">Serviços</a>
+                        <a class="nav-item nav-link" id="team-menu">Time</a>
+                        <a class="nav-item nav-link" id="portfolio-menu">Projetos</a>
+                        <a class="nav-item nav-link" id="contact-menu">Contatos</a>  
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <!-- Slider -->
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/banner1.png" class="d-block w-100" alt="...">
+                    <!-- tirar classe d-none -->
+
+                    <div class="carousel-caption d-mb-block"> 
+                        <h2>Quer criar um e-commerce?</h2>
+                        <p>Conte conosco,temos mais de 30 lojas do portfolio.</p>
+                        <a href="#" class="main-btn" > Ver Portfolio</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de Software">
+                    <div class="carousel-caption d-mb-block"> 
+                        <h2>Está querendo tirar o projeto do papel?</h2>
+                        <p>Nossa equipe de engenharia de software está pronta para lhe atender.</p>
+                        <a href="#" class="main-btn">Entre em contato</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em Software">
+                    <div class="carousel-caption d-mb-block"> 
+                        <h2>Está buscando manutenção no seu software?</h2>
+                        <p>A hDC conta com engenheiros altamente qualificados para resolver seu problema.</p>
+                        <a href="#" class="main-btn">Entre em contato</a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!-- Sobre a empresa -->
+            <div class="about-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Sobre a hDC Agency</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <img  class="img-fluid" src="img/agencia.jpg" alt="Agência hDC">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="about-title">Uma agência que pensa no futuro</h3>
+                            no futuro</h3>
+                            <p>Nossos projetos são adaptados ao cliente e seu propósito.</p>
+                            <p>Após a especificação do projetos os arquitetos de software definirão as melhores tecnologias para seu projeto.</p>
+                            <p>E nossos designers trabalharão na sua interface/layout para impulsionar o negócio.</p>
+                            <p>Veja outros diferenciais:</p>
+                            <ul id="about-list">
+                                <li><i class="fas fa-check"></i>Ultilização de Machine Learning</li>
+                                <li><i class="fas fa-check"></i> Layout responsivo para todos os dispositivos</li>
+                                <li><i class="fas fa-check"></i> Integração com diversos sistemas do mercado</li>
+                                <li><i class="fas fa-check"></i> Sistema de pagamento próprio</li>
+                                <li><i class="fas fa-check"></i> Desenvolvimento com metodologia ágil</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Serviços da empresa -->
+        <div id="about-area">
+
+        </div>
+        <div id="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">Nossas especialidades</h3>
+                    </div>
+                    <div class="col-md-4 service-box">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+<!-- <div id="mainSlider" class="carousel slide" data-reide="carousel">
+
+            </div> -->
