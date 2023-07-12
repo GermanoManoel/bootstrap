@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* XS. Essa configuração é pro teu tamanho de tela EXTRA SMALL < 576px */
+
+h1{
+    color: blue;
+}
+
+.btn-danger{
+    color:white;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: blue;
+    border: none;
+}
+
+.btn:hover{
+    background-color: none;
+   
+}
+
+/* SM. Aqui para resolução de tela SMALL ou seja >= 576px */
+
+@media (min-width:576px){
+    h1{
+        color: brown;
+    }
+}
+
+/* MD. Aqui para resolução de tela MEDIUM ou seja >= 768px  */
+
+@media (min-width:768px){
+    h1{
+        color: green;
+    }
+}
+
+/* LG. Aqui para resolução de tela LARGE ou seja >= 992px  */
+
+@media (min-width:992px){
+    h1{
+        color: rgb(224, 18, 190);
+    }
+}
+
+/* XL. Aqui para resolução de tela EXTRA LARGE ou seja >= 1200px  */
+
+@media (min-width:1200px){
+    h1{
+        color: rgb(202, 117, 20);
+    }
+}
+
+/* XXL. Aqui para resolução de tela EXTRA EXTRA LARGE ou seja >= 1400px  */
+
+@media (min-width:1400px){
+    h1{
+        color: rgb(22, 202, 163);
+    }
+}
+
+
+/* Container Breakpoint */
+
+.container-sm{
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.container-md{
+    border: 3px solid red;
+    margin-bottom: 10px;
+}
+
+.container-lg{
+    border: 3px solid blue;
+    margin-bottom: 10px;
+}
+
+/* Grid */
+
+.container{
+    border: 2px double blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row{
+    border: 5px solid black;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col,.col-4,.col-2,.col-1,.col-11,.col-3{
+    border: 2px dashed red;
+    height: 100%;
+    margin:0;
+}
+
+#largura-limitada{
+    max-width: 500px;
+}
+
+/* Alinhamento vertical */
+#vertical,#horizontal{
+    height: 250px;
+    border-color: blueviolet;
+    background-color: aqua;
+    margin-bottom: 50px;
+}
+
+#vertical .row,#horizontal .row{
+    height: 100%;
+}
+
+#vertical .col-6,
+#vertical .col-3,
+#vertical .col-4{
+    height: 50px;
+    border: 2px dashed red;
+    margin:0;
+}
+
+.offset{
+    height: auto;
+}
+
+#vertical .col-md-3{
+    height: 50px;
+    border: 2px solid black;
+}
