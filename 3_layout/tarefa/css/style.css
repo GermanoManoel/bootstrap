@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-fluid{
+    margin-top:20px;
+}
+
+.row{
+    border: 2px double blue;
+    margin: auto;
+    padding: 10px;
+}
+
+#impar{
+    border: 1px solid blue;
+}
+
+#par{
+    border: 1px solid green;
+}

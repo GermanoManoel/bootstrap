@@ -9,7 +9,7 @@
     <!-- Teu CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<>
+<body>
     <h1>Seção de Layout</h1>
         <button type="button" class="btn btn-danger">
             Enter
@@ -107,6 +107,14 @@
         </div>
       </div>
 
+      <!-- Alinhamento Horizontal -->
+        <div class="container" id="horizontal">
+          <div class="row justify-content-end row-cols-2"> <!-- Tu pode usar a classe justify-content e align-items junto como no CSS-->
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+          </div>
+        </div>
+
       <!-- Alinhamento vertical -->
         <div class="container" id="vertical">
           <div class="row align-items-center row-cols-2">
@@ -115,14 +123,6 @@
           </div>
         </div>
         
-        <!-- Alinhamento Horizontal -->
-        <div class="container" id="horizontal">
-          <div class="row justify-content-end row-cols-2"> <!-- Tu pode usar a classe justify-content e align-items junto como no CSS-->
-            <div class="col-3"></div>
-            <div class="col-3"></div>
-          </div>
-        </div>
-
         <!-- Alinhamento de item ( align-self )-->
         <div class="container" id="vertical">
           <div class="row ">
@@ -156,7 +156,30 @@
           <div class="row">
             <div class="col-md-3 offset-md-2"></div>
           </div>
-          
+        </div>
+
+        <!-- Gutters -->
+
+        <div class="container" id="gutter">
+          <div class="row gx-4">
+            <div class="col"><p>GX</p></div>
+            <div class="col"><p>GX</p></div>
+          </div>
+        </div>
+
+        
+        <div class="container" id="gutter">
+          <div class="row gy-4">
+            <div class="col"><p>GY</p></div>
+            <div class="col"><p>GY</p></div>
+          </div>
+        </div>
+
+        <div class="container" id="gutter">
+          <div class="row g-4">
+            <div class="col"><p>GY</p></div>
+            <div class="col"><p>GY</p></div>
+          </div>
         </div>
 </body>
 </html>
