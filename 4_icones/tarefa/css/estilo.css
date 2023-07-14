@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid{ 
+   padding: 20px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.row-xbox{
+    border: 3px solid #008000;
+    box-shadow: 10px 8px 6px rgba(0, 0, 0, 0.548);
+}
+
+.row-playstation{
+    border: 3px solid #0000ff;
+    box-shadow: 10px 8px 6px rgba(0, 0, 0, 0.548);
+}
+
+.row-windows{
+    border: 3px solid rgb(250, 14, 14);
+    box-shadow: 10px 8px 6px rgba(0, 0, 0, 0.548);
+}
+
+.icon-1{
+    color: #008000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+    font-size: 2rem;
+}
+
+.icon-2{
+    color: #0000ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+    font-size: 2.5rem;
+}
+
+.icon-3{
+    color: rgb(250, 14, 14);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+    font-size: 3rem;
+}

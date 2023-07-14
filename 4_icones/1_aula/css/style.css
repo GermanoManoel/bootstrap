@@ -1,0 +1,8 @@
+body{
+    background: blue;
+}
+.bi-windows, .bi-android{
+    font-size: 10rem;
+    color: rgb(238, 241, 235);
+
+}
